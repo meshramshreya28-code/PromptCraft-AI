@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PromptCraft AI – Smart Prompt Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <h1>✨ PromptCraft AI</h1>
+      <p>Generate optimized AI prompts like a professional prompt engineer.</p>
+    </header>
+
+    <section class="card">
+      <form id="promptForm">
+        <div class="form-group">
+          <label for="taskType">Task Type</label>
+          <select id="taskType" required>
+            <option value="">Select Task Type</option>
+            <option>Resume Writing</option>
+            <option>Coding</option>
+            <option>Blog Writing</option>
+            <option>Image Generation</option>
+            <option>Marketing Copy</option>
+            <option>Study Notes</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="topic">Topic or Goal</label>
+          <input
+            type="text"
+            id="topic"
+            placeholder="e.g., Create a professional software engineer resume"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="tone">Tone</label>
+          <select id="tone" required>
+            <option value="">Select Tone</option>
+            <option>Professional</option>
+            <option>Creative</option>
+            <option>Formal</option>
+            <option>Friendly</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="outputFormat">Output Format</label>
+          <select id="outputFormat" required>
+            <option value="">Select Output Format</option>
+            <option>Bullet Points</option>
+            <option>Table</option>
+            <option>Essay</option>
+            <option>Step-by-Step</option>
+          </select>
+        </div>
+
+        <button type="submit" class="generate-btn">
+          🚀 Generate Smart Prompt
+        </button>
+      </form>
+    </section>
+
+    <section id="resultSection" class="card hidden">
+      <div class="result-header">
+        <h2>Generated Results</h2>
+        <button id="copyBtn" class="copy-btn">📋 Copy</button>
+      </div>
+      <pre id="resultText"></pre>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+
+  <footer class="footer">
+  <p>✨ Designed and Developed by <strong>Shreya Meshram</strong></p>
+  <p class="footer-subtitle">
+    Full-Stack Developer • AI Enthusiast • Prompt Engineer
+  </p>
+</footer>
+
+</body>
+</html>
