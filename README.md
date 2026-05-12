@@ -48,7 +48,7 @@ PromptCraft-AI/
 ## ⚙️ Setup Instructions
 
 ### 1. Clone Repository
-git clone https://github.com/yourusername/PromptCraft-AI.git
+git clone https://github.com/meshramshreya28-code/PromptCraft-AI.git
 
 ### 2. Install Backend Dependencies
 cd PromptCraft-AI/backend
