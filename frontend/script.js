@@ -5,7 +5,7 @@ const copyBtn = document.getElementById("copyBtn");
 const generateBtn = document.querySelector(".generate-btn");
 
 // Change this when deploying the backend
-const API_URL = "http://localhost:5000/generate";
+const API_URL = "https://promptcraft-ai-kiny.onrender.com/";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
